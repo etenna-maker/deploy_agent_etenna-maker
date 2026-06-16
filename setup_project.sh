@@ -214,6 +214,7 @@ echo "  python3 attendance_checker.py"
 echo ""
 echo "To trigger the archive feature:"
 echo "  Press Ctrl+C while the script is running"
+echo "Setup finished at: $(date)"
 echo "=================================="
 
 
