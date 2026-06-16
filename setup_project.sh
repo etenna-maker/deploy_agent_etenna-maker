@@ -14,6 +14,8 @@
 # Stop the script if any command fails
 set -e
 
+# Store the directory where the script is running from
+SCRIPT_DIR=$(pwd)
 # ============================================================
 # SECTION 1: TRAP - Ctrl+C
 # ============================================================
