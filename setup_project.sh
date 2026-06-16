@@ -40,6 +40,9 @@ save_and_exit() {
 trap save_and_exit SIGINT
 
 # ============================================================
+echo "Setup started at: $(date)"
+
+
 # SECTION 2: WELCOME MESSAGE
 # ============================================================
 
